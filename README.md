@@ -1,5 +1,6 @@
 # my-portfolio
-<!DOCTYPE html>
+
+    <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -39,7 +40,7 @@
       padding-bottom: 10px;
     }
 
-    .skills, .projects {
+    .skills {
       display: flex;
       flex-wrap: wrap;
       gap: 20px;
@@ -75,7 +76,6 @@
   <nav>
     <a href="#about">About</a>
     <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
     <a href="#education">Education</a>
     <a href="#contact">Contact</a>
   </nav>
@@ -96,20 +96,6 @@
   </div>
 </section>
 
-<section id="projects">
-  <h2>Projects</h2>
-  <div class="projects">
-    <div class="card">
-      <strong>LULC Classification App</strong>
-      <p>A web app using Streamlit, satellite images, and ResNet50 to classify land use in Indian cities.</p>
-    </div>
-    <div class="card">
-      <strong>CareerLink App (Idea)</strong>
-      <p>A mobile app that connects students with professionals & AI for career advice.</p>
-    </div>
-  </div>
-</section>
-
 <section id="education">
   <h2>Education</h2>
   <p><strong>B.Tech in Computer Science Engineering</strong><br>Current Student</p>
@@ -120,7 +106,6 @@
   <div class="contact">
     <p>Email: your-email@example.com</p>
     <p>GitHub: <a href="https://github.com/manaswi-7" target="_blank">manaswi-7</a></p>
-    <p>LinkedIn: <a href="#" target="_blank">[Add your LinkedIn]</a></p>
   </div>
 </section>
 
@@ -130,3 +115,4 @@
 
 </body>
 </html>
+
