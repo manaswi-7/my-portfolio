@@ -15,16 +15,17 @@
 
     body {
       font-family: 'Raleway', sans-serif;
-      background: linear-gradient(to bottom right, #fdfbfb, #ebedee);
-      color: #333;
+      background-color: #0d1117;
+      color: #e6edf3;
       line-height: 1.6;
     }
 
     header {
-      background: #222;
-      color: white;
-      padding: 40px 20px;
+      background: linear-gradient(90deg, #1f1f1f, #2c2c2c);
+      color: #fff;
+      padding: 50px 20px;
       text-align: center;
+      border-bottom: 2px solid #30363d;
     }
 
     header h1 {
@@ -37,15 +38,15 @@
     }
 
     nav a {
-      color: #ddd;
-      margin: 0 12px;
+      color: #58a6ff;
+      margin: 0 15px;
       text-decoration: none;
       font-weight: bold;
       transition: color 0.3s;
     }
 
     nav a:hover {
-      color: #fff;
+      color: #79c0ff;
     }
 
     section {
@@ -57,7 +58,9 @@
     h2 {
       font-size: 2rem;
       margin-bottom: 20px;
-      color: #444;
+      color: #c9d1d9;
+      border-left: 5px solid #58a6ff;
+      padding-left: 10px;
     }
 
     p {
@@ -72,47 +75,52 @@
     }
 
     .card {
-      background: white;
+      background: #161b22;
       padding: 20px;
       border-radius: 12px;
       flex: 1 1 40%;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-      transition: transform 0.2s ease;
+      color: #e6edf3;
+      border: 1px solid #30363d;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+      transition: transform 0.2s ease, border 0.3s ease;
     }
 
     .card:hover {
       transform: translateY(-5px);
+      border-color: #58a6ff;
     }
 
     .contact {
-      background-color: #fff;
+      background: #161b22;
       padding: 20px;
       border-radius: 12px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      border: 1px solid #30363d;
     }
 
     .contact a {
-      color: #007acc;
+      color: #58a6ff;
       text-decoration: none;
     }
 
     .contact a:hover {
       text-decoration: underline;
-    }
-
-    footer {
-      text-align: center;
-      background-color: #222;
-      color: white;
-      padding: 30px 20px;
-      margin-top: 40px;
+      color: #79c0ff;
     }
 
     .final-note {
       margin-top: 30px;
       font-size: 1.1rem;
-      color: #333;
+      color: #c9d1d9;
       text-align: center;
+    }
+
+    footer {
+      text-align: center;
+      background: #161b22;
+      color: #8b949e;
+      padding: 30px 20px;
+      margin-top: 40px;
+      border-top: 1px solid #30363d;
     }
   </style>
 </head>
@@ -155,14 +163,15 @@
       <p>GitHub: <a href="https://github.com/manaswi-7" target="_blank">manaswi-7</a></p>
     </div>
     <div class="final-note">
-      <p>💌 Feel free to contact me for further details on <a href="mailto:manaswibichala@gmail.com">manaswibichala@gmail.com</a></p>
+      <p>📬 Feel free to contact me for further details on <a href="mailto:manaswibichala@gmail.com">manaswibichala@gmail.com</a></p>
     </div>
   </section>
 
   <footer>
-    <p>© 2025 Manaswi | Built with 💖 and HTML</p>
+    <p>© 2025 Manaswi | Built with 💻, 💖, and dark vibes ✨</p>
   </footer>
 
 </body>
 </html>
+
 
