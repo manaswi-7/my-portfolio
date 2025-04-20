@@ -1,6 +1,5 @@
 # my-portfolio
-
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -104,7 +103,7 @@
 <section id="contact">
   <h2>Contact Me</h2>
   <div class="contact">
-    <p>Email: your-email@example.com</p>
+    <p>Email: <a href="mailto:manaswibichala@gmail.com">manaswibichala@gmail.com</a></p>
     <p>GitHub: <a href="https://github.com/manaswi-7" target="_blank">manaswi-7</a></p>
   </div>
 </section>
